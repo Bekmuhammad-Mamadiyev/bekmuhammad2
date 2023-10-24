@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server.php" method="GET">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" > <br> <br>
+        <label for="pasword">PArol</label>
+        <input type="password" name="parol" id="pasword"> <br> <br>
+        <label for="email">Email kiriting</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="DATE">tug'ilgan sana</label>
+        <input type="date" name="date" id="DATE">
+        <br>
+        <label for="student">Talabamisz</label>
+        <input type="checkbox" name="talaba" id="student"><br>
+        <hr>
+        <label for="erkak">Erkak</label>
+        <input type="radio" name="gender" value="male">
+        <label for="erkak">Ayol</label>
+        <input type="radio" name="gender" value="female">
+        <hr>
+        <label for="passport">Pasport yuklang</label>
+        <input type="file" name="passport" id="passport">
+        <hr>
+        <label for="tanlash">Tajribangiz</label>
+        <select name="experins" id="tanlash">
+            <option value="0">tajribam yo'q</option>
+            <option value="1">1 yil</option>
+            <option value="2">2 yil</option>
+        </select>
+        <hr>
+        <label for="haqida">Siz haqinggizda</label> <br>
+        <textarea name="about" id="haqida" cols="30" rows="5"></textarea>
+        <button type="submit">Login</button>
+        
+
+    </form>
+</body>
+</html>
